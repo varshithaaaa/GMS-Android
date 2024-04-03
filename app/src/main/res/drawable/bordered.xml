@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bordered_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color for the LinearLayout -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Border -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+            android:color="@color/main" />
+        </shape>
+    </item>
+</layer-list>

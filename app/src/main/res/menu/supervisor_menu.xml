@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_tools"
+        android:icon="@drawable/dropbox"
+        android:title="tools" />
+    <item
+        android:id="@+id/navigation_assign_task"
+        android:icon="@drawable/tasks"
+        android:title="job" />
+    <item
+        android:id="@+id/navigation_leaderBoard"
+        android:icon="@drawable/bag2"
+        android:title="leaderboard" />
+</menu>

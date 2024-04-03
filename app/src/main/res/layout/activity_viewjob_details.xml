@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ViewjobDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Details"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingHorizontal="50dp">
+
+            <!-- First TextView -->
+            <TextView
+                android:id="@+id/jobIdTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Job ID: 1"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/jobTypeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Job Type: Cleaning"
+                android:textSize="20dp"/>
+
+            <!-- Second TextView -->
+            <TextView
+                android:id="@+id/managerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Manager: Manager"
+                android:textSize="20dp"/>
+
+            <!-- Third TextView -->
+            <TextView
+                android:id="@+id/supervisorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Supervisor: Supervisor"
+                android:textSize="20dp"/>
+
+            <!-- Fourth TextView -->
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Date: date"
+                android:textSize="20dp"/>
+
+            <!-- Fifth TextView -->
+            <TextView
+                android:id="@+id/startTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Start Time: time"
+                android:textSize="20dp"/>
+
+            <!-- Sixth TextView -->
+            <TextView
+                android:id="@+id/endTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. End Time: 10:00 PM"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/nextBtn"
+            android:text="Next"/>
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="staff_professions">
+        <item>Manager</item>
+        <item>Supervisor</item>
+        <item>Worker</item>
+    </string-array>
+
+    <string-array name="tasks">
+        <item>Select a task</item>
+        <item>Watering</item>
+        <item>Cleaning</item>
+        <item>Cutting</item>
+        <item>Planting</item>
+        <item>Maintenance</item>
+    </string-array>
+</resources>
